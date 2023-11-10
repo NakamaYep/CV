@@ -1,0 +1,79 @@
+
+main > section > h2 { /* Impacte le Titre de chaque grandre partie*/
+    background-color: var(--orange);
+    margin: 20px;
+    text-align: center;
+    color: var(--white);
+    border-radius: 10px;
+}
+
+
+main section > article > h2 { /* Impacte les sous titre */
+    padding-left: 74px;
+    font-style: oblique;
+    color: var(--lightblue);
+    clear: both; /* Me permet de stopper le float de l'icone du dessus */
+
+}
+
+main section > article > h2 > span { /* Impacte les sous titre */
+   float: left;
+   margin-right: 5px;
+}
+
+
+main > section > article > h3 { /* Impacte titre entreprise */
+   
+    padding-left: 110px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 16px; /* Permet d'influencer la hauteur du bloque de texte-> Enlève l'espace entre h4 et span */
+    
+}
+
+main > section > article >  span  { /*Date et heure */
+    font-style: italic;
+    color: var(--purple);
+    padding-left: 110px;
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: bold; 
+}
+
+main > section > article > p > span {
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 25px;
+
+
+}
+
+
+main > section > ul span  {
+    font-style: italic;
+    color: var(--purple);
+    padding-top: 0px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 12px;
+    
+}
+
+main  ul , p {
+    padding-left: 120px;
+}
+
+main p {
+    font-size: 14px;
+}
+
+main > section > ul > li {
+    font-size: 14px;
+}
+
+main > section > ul > li > i {
+    float: left;
+    padding-right: 5px;
+    
+}

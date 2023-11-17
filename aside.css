@@ -1,31 +1,22 @@
 
-aside {
-    
-    /* float: right; */
-    width: 40%;
-    background-color: var(--blue);
-   color: var(--white);
-    
-}
-
-aside > h2 { /* Impacte Nom et Prénom CV */
-    font-size: 2.8em;
+aside >  h2 { /* Impacte Nom et Prénom CV */
+    font-size: 3vw;
     text-align: center;
     color: var(--lightorange);
-    margin-bottom: 10px;
-    margin-top: 0px;
+    margin-bottom: 2%;
+    margin-top: 0%;
     
 }
 
 aside > section > h2 { /*impact les titre du Aside */
-    font-size: 2.0em;
+    font-size: 2.6vw;
     text-align: center;
     color: var(--lightorange);
 
 }
 
 aside > section > p { /* Impact le texte sous savoir-être et savoir-faire */
-    font-size: 1.0em;
+    font-size: 1.35vw;
     text-align: left;
     padding: 0% 12% 0% ;
     font-style: italic;
@@ -34,40 +25,43 @@ aside > section > p { /* Impact le texte sous savoir-être et savoir-faire */
 }
 
 figure {
-    border: solid 6px var(--lightorange);
+    border: solid 0.6vw var(--lightorange);
     margin-left: auto; /* centre le cadre par rapport à la large du aside */
     margin-right: auto; /* centre le cadre par rapport à la large du aside */
-    margin-top: 0px;
+    margin-top: 0%;
     width: 60%;
     
 }
 
 figure figcaption {
     text-align: center;
-
+    font-size: 1.2vw;
 }
 
 
 img {
  max-width: 100%; /* adapte la photo au cadre */
  max-height: 100%; /* adapte la photo au cadre */
- border-bottom: solid 6px var(--lightorange);
-}
-    
-aside > hr {
-    height: 10px;
-    background-color: var(--lightorange);
-    margin: 40px;
+ border-bottom: solid 0.6vw var(--lightorange);
 }
 
-aside > section > article > p > a {
+
+aside > hr {
+    height: 0.5%;
+    background-color: var(--lightorange);
+    margin-left: 10%;
+    margin-right:10% ;
+    margin-top: 8%;
+}
+
+aside > section  > p > a {
     color: var(--white);
     text-decoration: none;
 }
 
 aside > section > article > p  { /* impacte le texte dans coordonnée */
 
-    font-size: 1.0em;
+    font-size: 1.4vw;
     padding-left: 18%;
     padding-right: 2%;
 
@@ -79,5 +73,7 @@ aside > section > article > p > span  { /* impacte les icones dans coordonnée *
     margin-right: 0.2em;
     
 }
+
+
 
 

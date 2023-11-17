@@ -1,16 +1,18 @@
 
 main > section > h2 { /* Impacte le Titre de chaque grandre partie*/
     background-color: var(--orange);
-    margin: 20px;
+    margin: 4%;
     text-align: center;
     color: var(--white);
     border-radius: 10px;
+    font-size: 2.5vw;
 }
 
 
 main section > article > h2 { /* Impacte les sous titre */
-    padding-left: 74px;
+    padding-left: 12%;
     font-style: oblique;
+    font-size: 1.85vw;
     color: var(--lightblue);
     clear: both; /* Me permet de stopper le float de l'icone du dessus */
 
@@ -18,27 +20,28 @@ main section > article > h2 { /* Impacte les sous titre */
 
 main section > article > h2 > span { /* Impacte les sous titre */
    float: left;
-   margin-right: 5px;
+   margin-right: 0.65vw;
 }
 
 
 main > section > article > h3 { /* Impacte titre entreprise */
    
-    padding-left: 110px;
-    padding-bottom: 0;
-    margin-bottom: 0;
-    line-height: 16px; /* Permet d'influencer la hauteur du bloque de texte-> Enlève l'espace entre h4 et span */
-    
+    padding-left: 16%;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    line-height: 1.8vw; /* Permet d'influencer la hauteur du bloque de texte-> Enlève l'espace entre h4 et span */
+    font-size: 1.4vw;
 }
 
 main > section > article >  span  { /*Date et heure */
     font-style: italic;
     color: var(--purple);
-    padding-left: 110px;
-    padding-top: 0px;
-    margin-top: 0px;
-    font-size: 14px;
+    padding-left: 16%;
+    padding-top: 0%;
+    margin-top: 0%;
+    font-size: 0.9vw;
     font-weight: bold; 
+    
 }
 
 main > section > article > p > span {
@@ -49,31 +52,37 @@ main > section > article > p > span {
 
 }
 
+main > section > article > ul > li {
+     font-size: 1.12vw; 
+
+}
+
 
 main > section > ul span  {
     font-style: italic;
     color: var(--purple);
-    padding-top: 0px;
-    margin-top: 0px;
+    padding-top: 0%;
+    margin-top: 0%;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 0.8vw;
     
 }
 
 main  ul , p {
-    padding-left: 120px;
+    padding-left: 18%;
+    padding-right: 10%;
 }
 
 main p {
-    font-size: 14px;
+    font-size: 1.12vw;
 }
 
 main > section > ul > li {
-    font-size: 14px;
+    font-size: 1.22vw;
 }
 
 main > section > ul > li > i {
     float: left;
-    padding-right: 5px;
+    padding-right: 0.65vw;
     
 }
